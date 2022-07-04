@@ -1,89 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Log in to Facebook]]>
-    </line>
-    <line>
-      <![CDATA[https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form]]>
-    </line>
-    <line>
-      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
-    </line>
-    <line>
-      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
-    </line>
     <line>
       <![CDATA[Facebook – log in or sign up]]>
     </line>
     <line>
-      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU2NjQ3NjU1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU2OTA3MTAwLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-01T09:23:36 IST" name="Suite" finished-at="2022-07-01T09:24:31 IST" duration-ms="54624">
+  <suite started-at="2022-07-04T09:28:15 IST" name="Failed suite [Failed suite [Suite]]" finished-at="2022-07-04T09:28:33 IST" duration-ms="17851">
     <groups>
     </groups>
-    <test started-at="2022-07-01T09:23:36 IST" name="Test" finished-at="2022-07-01T09:24:31 IST" duration-ms="54624">
-      <class name="testNG.Testcase2">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testNG.Testcase2@343570b7]" started-at="2022-07-01T09:23:54 IST" name="openApp" finished-at="2022-07-01T09:24:00 IST" duration-ms="6366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="tc2()[pri:0, instance:testNG.Testcase2@343570b7]" started-at="2022-07-01T09:24:00 IST" name="tc2" finished-at="2022-07-01T09:24:04 IST" duration-ms="4022" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
-            </line>
-            <line>
-              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testNG.Testcase2@343570b7]" started-at="2022-07-01T09:24:04 IST" name="closeApp" finished-at="2022-07-01T09:24:09 IST" duration-ms="5063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- testNG.Testcase2 -->
+    <test started-at="2022-07-04T09:28:15 IST" name="Test(failed)(failed)" finished-at="2022-07-04T09:28:33 IST" duration-ms="17851">
       <class name="testNG.Testcase1">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:testNG.Testcase1@157853da]" started-at="2022-07-01T09:24:09 IST" name="openApp" finished-at="2022-07-01T09:24:16 IST" duration-ms="6990" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testNG.Testcase1@28975c28]" started-at="2022-07-04T09:28:15 IST" name="openApp" finished-at="2022-07-04T09:28:21 IST" duration-ms="6056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc1()[pri:0, instance:testNG.Testcase1@157853da]" started-at="2022-07-01T09:24:16 IST" name="tc1" finished-at="2022-07-01T09:24:24 IST" duration-ms="8077" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:testNG.Testcase1@28975c28]" started-at="2022-07-04T09:28:21 IST" name="tc1" finished-at="2022-07-04T09:28:29 IST" duration-ms="7476" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Facebook – log in or sign up]]>
             </line>
             <line>
-              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU2NjQ3NjU1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU2OTA3MTAwLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testNG.Testcase1@157853da]" started-at="2022-07-01T09:24:24 IST" name="closeApp" finished-at="2022-07-01T09:24:31 IST" duration-ms="6293" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testNG.Testcase1@28975c28]" started-at="2022-07-04T09:28:29 IST" name="closeApp" finished-at="2022-07-04T09:28:33 IST" duration-ms="4230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- testNG.Testcase1 -->
-      <class name="testNG.Testcase3">
-        <test-method is-config="true" signature="openAPP()[pri:0, instance:testNG.Testcase3@3943a2be]" started-at="2022-07-01T09:23:36 IST" name="openAPP" finished-at="2022-07-01T09:23:44 IST" duration-ms="7939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openAPP -->
-        <test-method signature="tc3()[pri:0, instance:testNG.Testcase3@3943a2be]" started-at="2022-07-01T09:23:44 IST" name="tc3" finished-at="2022-07-01T09:23:50 IST" duration-ms="5548" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Log in to Facebook]]>
-            </line>
-            <line>
-              <![CDATA[https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc3 -->
-        <test-method is-config="true" signature="closeAPP()[pri:0, instance:testNG.Testcase3@3943a2be]" started-at="2022-07-01T09:23:50 IST" name="closeAPP" finished-at="2022-07-01T09:23:54 IST" duration-ms="4235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeAPP -->
-      </class> <!-- testNG.Testcase3 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Suite]] -->
 </testng-results>
